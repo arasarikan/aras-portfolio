@@ -242,9 +242,7 @@ h3 {
 
 .project-media img {
   width: 100%;
-  border-radius: 0;
-  border: 0;
-  aspect-ratio: 16 / 10;
+  height: 260px;
   object-fit: cover;
   display: block;
 }
@@ -375,4 +373,14 @@ h3 {
 
 .timeline-card .meta {
   color: #6a5a48;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-body {
+  padding: 1rem 1.1rem 1.1rem;
+  flex-grow: 1;
 }
